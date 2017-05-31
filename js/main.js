@@ -16,7 +16,7 @@ function cambiarImagen(){
     target = parseInt($(this).data("target")) //otra forma de data
     mostrarImagen(target)
     console.log(target)
-}
+}9
 
 var mostrarImagen = function (target) {
    
