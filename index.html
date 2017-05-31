@@ -1,34 +1,47 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
-	<meta charset="UTF-8">
-	<title>Carousel con JS</title>
-	<link rel="stylesheet" href="./css/main.css">
+    <meta charset="UTF-8">
+    <title>Carousel con JS</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
 </head>
+
 <body>
-	<div class="carousel">
-		<div data-slide="0" class="carousel-content active">
-			<img src="" alt="Imagen 1">
-		</div>
-		<div data-slide="1" class="carousel-content ">
-			<img src="" alt="Imagen 2">
-		</div>
-		<div data-slide="2" class="carousel-content ">
-			<img src="" alt="Imagen 3">
-		</div>
-		<div data-slide="3" class="carousel-content">
-			<img src="" alt="Imagen 4">
-		</div>
-	</div>
-	<div class="controls">
-		<a href="#" class="previous">&#60;</a>
-		<button type="button" data-target="0" class="control"></button>
-		<button type="button" data-target="1" class="control"></button>
-		<button type="button" data-target="2" class="control"></button>
-		<button type="button" data-target="3" class="control"></button>
-		<a href="#" class="next">&#62;</a>
-	</div>
-	<script src="js/jquery-3.2.1.min.js"></script>
-	<script src="./js/main.js"></script>
+    <section id="carusel" class="container">
+        <div class="row">
+            <div class="col s12">
+                <div class="carousel">
+                    <div data-slide="0" class="carousel-content active container">
+                        <img src="img/pexels-photo-220836.jpeg" alt="Imagen 1">
+                    </div>
+                    <div data-slide="1" class="carousel-content ">
+                        <img src="img/pexels-photo-255150.jpeg" alt="Imagen 2">
+                    </div>
+                    <div data-slide="2" class="carousel-content ">
+                        <img src="img/pexels-photo-297814.jpeg" alt="Imagen 3">
+                    </div>
+                    <div data-slide="3" class="carousel-content">
+                        <img src="img/pexels-photo-320610.jpeg" alt="Imagen 4">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="controls container center-align">
+                <a href="#" class="previous">&#60;</a>
+                <button type="button" data-target="0" class="control waves-effect waves-light btn"></button>
+                <button type="button" data-target="1" class="control waves-effect waves-light btn"></button>
+                <button type="button" data-target="2" class="control waves-effect waves-light btn"></button>
+                <button type="button" data-target="3" class="control waves-effect waves-light btn"></button>
+                <a href="#" class="next">&#62;</a>
+            </div>
+        </div>
+    </section>
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script src="./js/main.js"></script>
 </body>
+
 </html>

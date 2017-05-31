@@ -1,3 +1,3 @@
-# carrusel-demo
+# Carrusel-demo 
 
-##Carousel with HTML, CSS and JS
+html, css and jquery
